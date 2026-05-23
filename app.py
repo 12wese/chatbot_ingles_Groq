@@ -122,7 +122,7 @@ with st.sidebar:
 
     nivel = st.selectbox(
         "Nivel de inglés",
-        ["Principiante", "Intermedio", "Avanzado"]
+        ["A1-Principiante","A2-Basico", "B1-Intermedio" , "B2-Intermedio"]
     )
 
     modo = st.selectbox(
@@ -143,7 +143,7 @@ with st.sidebar:
         st.rerun()
 
 
-st.title("🇬🇧 English Coach - Groq")
+st.title("Inoki English Tutor - Groq")
 
 st.markdown(
     """
@@ -200,6 +200,7 @@ Usa la siguiente información de referencia tomada de libros de inglés cuando s
 
 Reglas:
 - Explica de forma clara y sencilla.
+- Antes de cada respuesta ten en cuenta el historial de cada conversacion
 - Si el estudiante comete errores, corrígelos con amabilidad.
 - Da ejemplos cortos.
 - Si responde en español, puedes explicar en español e inglés.
